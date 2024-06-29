@@ -7,8 +7,8 @@ Vous pouvez installer [Visual Studio Code](https://code.visualstudio.com/downloa
 Il y en a d'autre comme [Notepad++](https://notepad-plus-plus.org/downloads/), [Sublime Text](https://www.sublimetext.com/download) et j'en passe.
 
 ## Sources
-[La documentation Lua de Stand (En Anglais)](https://stand.gg/help/lua-api-documentation)
-[Le salon #programming du Discord de Stand (En Anglais)](https://discord.com/channels/956618713157763072/956618713581387806)
+[La documentation Lua de Stand (En Anglais)](https://stand.gg/help/lua-api-documentation) /
+[Le salon #programming du Discord de Stand (En Anglais)](https://discord.com/channels/956618713157763072/956618713581387806) /
 [im_too_strong <3](<https://discord.com/users/472825438700437504>)
 
 ## Bases
