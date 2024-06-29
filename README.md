@@ -16,7 +16,7 @@ Il y en a d'autre comme [Notepad++](https://notepad-plus-plus.org/downloads/), [
 On va commencer par la base de la base ; créer le fichier Lua.
 Afin de faire ça, nous allons nous rendre :
 - En jeu
-  -[Stand > Lua Scripts > Ouvrir Dossier](https://stand.gg/focus#Stand>Lua%20Scripts>Open%20Folder)
+  - [Stand > Lua Scripts > Ouvrir Dossier](https://stand.gg/focus#Stand>Lua%20Scripts>Open%20Folder)
   - Cliquez sur 'Focus in Stand' et vous devriez être directement sur le bouton "Ouvrir Dossier" dans Lua Scripts.
 - Le Launchpad
   - Cliquez sur le bouton "Open Stand Folder" puis cliquez sur "Lua Scripts"
