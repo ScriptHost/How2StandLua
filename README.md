@@ -35,10 +35,12 @@ Maintenant, vous pouvez créer votre document texte (Clic Droit > Nouveau > Docu
 Références : [Documentation Lua de Stand](https://stand.gg/help/lua-api-documentation)
 
 `menu.my_root` : C'est "le lobby" de votre script, un endroit ou vous pouvez placer vos futurs options
+
 `menu.action / menu.toggle / menu.toggle_loop` : C'est les "interrupteurs" que vous allez utiliser.
 L'action est comme un bouton, une fois pressé, le code s'éxécutera et s'arrétera à la fin.
 Le toggle est comme un levier, quand il est activé, il éxécutera le code pour l'activer et quand il est désactivé, re-éxécutera le code pour le désactiver.
 Le toggle_loop est comme un levier, sauf que il a la spécificité de répéter le code en boucle.
+
 `menu.list` : C'est ce qui va être utiliser pour regrouper toutes les options au même endroits.
 
 Maintenant, comment les utiliser?
