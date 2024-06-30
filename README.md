@@ -127,3 +127,43 @@ end)
 ```
 
 Il faut aussi noter que le temps mis entre les parenthèses de `util.yield` est en millisecondes, 1000 = 1 seconde.
+
+# Fonctions 'Players' et quelques tips
+
+Je vais dans cette partie couvrir quelques fonctions relatif au joueurs, comme par exemple obtenir le pseudo de l'utilisateur du script en cours et d'autres choses.
+
+```
+username = players.get_name(players.user())
+
+menu.action(menu.my_root(), "Pseudo d'utilisateur", {"getusername"}, "", function()
+  util.toast(username)
+end)
+```
+
+Vous trouvez que tout est trop long? Aucun soucis!
+
+Vous pouvez, au lieu d'écrire `menu.my_root()`, écrire `root`.
+
+Pour ce faire, vous devriez mettre, au début du script de préférence, la ligne suivante :
+
+```
+root = menu.my_root()
+
+```
+Cela marche pour tout ce que vous souhaitez, par exemple les `actions ; toggle_loop` et `toggle`.
+
+```
+action = menu.action
+toggle = menu.toggle
+toggleloop = menu.toggle_loop
+
+```
+Si l'ont met à jour notre bouton qui disait bonjour au tout début avec ces raccourcis ça donnerait ça:
+
+```
+action(root, "Bouton", {"commande"}, "", function()
+  util.toast("Bonjour!")
+end)
+```
+
+Vous pouvez notamment raccourcir `util.toast` en `toast` si vous le souhaitez, rappellez vous juste de mettre la ligne `toast = util.toast` avant d'utiliser `toast`.
