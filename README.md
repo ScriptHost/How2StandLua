@@ -22,10 +22,10 @@ Afin de faire ça, nous allons nous rendre :
   - Cliquez sur le bouton "Open Stand Folder" puis cliquez sur "Lua Scripts"
 
 Nous allons devoir maintenant afficher les extensions des fichiers, pour se faire :
-Windows 11 :
-- Dans votre explorateur de fichiers, cherchez "Afficher" et cliquez sur "Afficher" puis cliquez sur "Extensions de nom de fichier".
-Windows 10 :
-- Dans votre explorateur de fichiers, cliquez sur "Affichage", ensuite cochez "Extensions de noms de fichier"
+- Windows 11 :
+  - Dans votre explorateur de fichiers, cherchez "Afficher" et cliquez sur "Afficher" puis cliquez sur "Extensions de nom de fichier".
+- Windows 10 :
+  - Dans votre explorateur de fichiers, cliquez sur "Affichage", ensuite cochez "Extensions de noms de fichier"
 
 Maintenant, vous pouvez créer votre document texte (Clic Droit > Nouveau > Document Texte), le nommer comme vous voulez et remplacer ".txt" en ".lua" / __".pluto*"__ puis l'ouvrir.
 - Note : Je n'irai pas sur Pluto ici, vous pouvez en apprendre plus sur [sa documentation](https://pluto-lang.org/docs/Introduction) qui est en anglais.
