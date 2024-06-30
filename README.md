@@ -196,5 +196,6 @@ end)
 
 Votre code devrait ressembler à ça :
 ![VSC](https://github.com/ScriptHost/How2StandLua/assets/135753695/5ac19b74-30a4-4553-a7de-bc3449d7a093)
+
 Et en jeu le script devrait ressembler à ça :
 ![In-Game](https://github.com/ScriptHost/How2StandLua/assets/135753695/18d86664-d73e-4b7d-b7ea-0a0cb21d6a4b)
