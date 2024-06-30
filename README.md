@@ -140,6 +140,8 @@ menu.action(menu.my_root(), "Pseudo d'utilisateur", {"getusername"}, "", functio
 end)
 ```
 
+`players.get_name()` est la fonction qui permet d'obtenir le pseudo d'un joueur, `players.user()` fait référence à l'utilisateur Stand utilisant le script.
+
 Vous trouvez que tout est trop long? Aucun soucis!
 
 Vous pouvez, au lieu d'écrire `menu.my_root()`, écrire `root`.
@@ -148,16 +150,16 @@ Pour ce faire, vous devriez mettre, au début du script de préférence, la lign
 
 ```
 root = menu.my_root()
-
 ```
+
 Cela marche pour tout ce que vous souhaitez, par exemple les `actions ; toggle_loop` et `toggle`.
 
 ```
 action = menu.action
 toggle = menu.toggle
 toggleloop = menu.toggle_loop
-
 ```
+
 Si l'ont met à jour notre bouton qui disait bonjour au tout début avec ces raccourcis ça donnerait ça:
 
 ```
@@ -167,3 +169,32 @@ end)
 ```
 
 Vous pouvez notamment raccourcir `util.toast` en `toast` si vous le souhaitez, rappellez vous juste de mettre la ligne `toast = util.toast` avant d'utiliser `toast`.
+
+Revenons sur notre fonction pour obtenir le pseudo d'utilisateur, cette fois en utilisant tout ce qu'on a jusque la.
+
+```
+action(root, "Pseudo du User", {"gotusername"}, "", function()
+  toast(username)
+end)
+```
+
+Vu que on a déjà le raccourci `username` on a pas besoin de le re-écrire.
+
+Rajoutons à cette fonction le RID de l'utilisateur en utilisant `players.get_rockstar_id(players.user())`
+
+```
+rid = players.get_rockstar_id(players.user())
+
+action(root, "Infos User (Pseudo + RID)", {}, "", function()
+  toast($"{username}\n{rid}")
+end)
+```
+
+- Comme vous pouvez le constater, il y a un "$" qui s'est rajouté ainsi que des "{}".
+- Le "$" est encore assez nouveau pour moi au moment où j'écrit ça, mais il permet de mettre les raccourcis crée auparavant, dans ce cas la `username` et `rid`.
+- Vous pouvez aussi voir entre `username` et `rid`, `\n` est un code pour dire que il faut sauter de ligne dans le texte.
+
+Votre code devrait ressembler à ça :
+![VSC](https://github.com/ScriptHost/How2StandLua/assets/135753695/5ac19b74-30a4-4553-a7de-bc3449d7a093)
+Et en jeu le script devrait ressembler à ça :
+![In-Game](https://github.com/ScriptHost/How2StandLua/assets/135753695/18d86664-d73e-4b7d-b7ea-0a0cb21d6a4b)
