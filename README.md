@@ -51,9 +51,9 @@ menu.action(menu.my_root(), "Nom du Bouton", {"commande"}, "Description", functi
   util.toast("Bonjour!")
 end)
 ```
-menu.action est ce qui désigne quel "interrupteur" c'est, en l'occurance c'est un bouton.
-menu.my_root() désigne l'emplacement du bouton, en l'occurance, "le lobby" du script.
-util.toast est une des nombreuses fonctions qui en l'occurance fait une notification Stand.
+- `menu.action` est ce qui désigne quel "interrupteur" c'est, en l'occurance c'est un bouton.
+- `menu.my_root()` désigne l'emplacement du bouton, en l'occurance, "le lobby" du script.
+- `util.toast` est une des nombreuses fonctions qui en l'occurance fait une notification Stand.
 
 Maintenant nous allons déplacer le bouton dans une list.
 
